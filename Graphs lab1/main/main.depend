@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1522620159 source:c:\users\andrei\desktop\lab graf\main\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+
