@@ -163,8 +163,8 @@ public:
 			vector<pair<int, int>>& neighbours = g.returnNeighbours(u);
 			for (int i = 0; i < neighbours.size(); i++)
 			{
-				if (mstSet[neighbours[i].first] == false && neighbours[i].first < key[neighbours[i].first])
-					parent[neighbours[i].first] = u, key[neighbours[i].first] = neighbours[i].first;
+				if (mstSet[neighbours[i].first] == false && neighbours[i].second < key[neighbours[i].first])
+					parent[neighbours[i].first] = u, key[neighbours[i].first] = neighbours[i].second;
 			}
 		}
 
