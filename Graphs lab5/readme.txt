@@ -1,0 +1,1 @@
+7. Given an undirected graph, find a vertex cover of no more than twice the optimal number of vertices in O(n+m) time.
